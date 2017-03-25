@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1490452594 source:c:\users\6512224\desktop\git portable\c++\exercicio9\main.cpp
+	<iostream>
+	<math.h>
+

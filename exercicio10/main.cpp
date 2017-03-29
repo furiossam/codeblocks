@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     float ht, he, hrfalta,grat;
 
-    cout << "Digite suas horas extras e horas falta: ";
+    cout << "Digite suas horas extras e horas falta: \n";
     cin >> he >> hrfalta;
     ht = he - 2*hrfalta/3;
     if (ht > 40) {
@@ -24,5 +24,5 @@ int main() {
             }
         }
     }
-    cout << "Sua gratificação é: " << grat;
+    cout << "Sua gratificação e: " << grat;
 }

@@ -20,7 +20,7 @@ int main()
             cout << "Digite o n de inscricao e altura(cm) do atleta " << i+1 << endl;
             cin >> inscricao[i] >> altura[i];
         }
-        while (altura<1);
+        while (altura[i]<1);
         alturas+=altura[i];
     }
     maior=altura[0];
@@ -29,6 +29,23 @@ int main()
     insmenor=inscricao[0];
     for (i=1;i<n;i++)
     {
-
+        if (altura[i] > maior)
+        {
+            maior = altura[i];
+            insmaior = inscricao[i];
+        }
+        else
+        {
+            if (altura[i] < menor)
+            {
+                menor = altura[i];
+                insmenor = inscricao[i];
+            }
+        }
     }
+    media=alturas/n;
+    cout << "Atleta mais alto tem " << maior << " cm   n inscricao: " << insmaior << endl;
+    cout << "Atleta mais baixo tem " << menor << " cm   n inscricao: " << insmenor << endl;
+    cout << "média de altura: " << media << endl;
+
 }

@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1506606301 source:c:\users\leonardo\desktop\consultorio\assegurado.cpp
+	"Assegurado.h"
+	<iostream>
+	<string>
+
+1506516506 c:\users\leonardo\desktop\consultorio\assegurado.h
+	<string>
+	"Paciente.h"
+
+1506529121 c:\users\leonardo\desktop\consultorio\paciente.h
+	<string>
+
+1506531887 source:c:\users\leonardo\desktop\consultorio\main.cpp
+	<iostream>
+	"Paciente.h"
+	"Assegurado.h"
+	"NaoAssegurado.h"
+
+1506529121 source:c:\users\leonardo\desktop\consultorio\paciente.cpp
+	"Paciente.h"
+
+1506606301 source:c:\users\leonardo\desktop\consultorio\naoassegurado.cpp
+	"NaoAssegurado.h"
+	<iostream>
+
+1506474614 c:\users\leonardo\desktop\consultorio\naoassegurado.h
+	"Paciente.h"
+

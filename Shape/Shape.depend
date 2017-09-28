@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1506308865 source:c:\users\leonardo\desktop\shape\circulo.cpp
+	"Circulo.h"
+	<iostream>
+
+1506307360 c:\users\leonardo\desktop\shape\circulo.h
+	"Shape.h"
+
+1506308752 c:\users\leonardo\desktop\shape\shape.h
+
+1506308801 source:c:\users\leonardo\desktop\shape\main.cpp
+	<iostream>
+	"Shape.h"
+	"Circulo.h"
+	"Quadrado.h"
+
+1506307440 source:c:\users\leonardo\desktop\shape\quadrado.cpp
+	<iostream>
+	"Quadrado.h"
+
+1506307455 c:\users\leonardo\desktop\shape\quadrado.h
+	"Shape.h"
+
+1506308752 source:c:\users\leonardo\desktop\shape\shape.cpp
+	"Shape.h"
+	<iostream>
+

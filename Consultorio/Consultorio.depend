@@ -27,3 +27,31 @@
 1506474614 c:\users\leonardo\desktop\consultorio\naoassegurado.h
 	"Paciente.h"
 
+1506640588 source:c:\users\6512224\desktop\portablegit\codeblocks\consultorio\assegurado.cpp
+	"Assegurado.h"
+	<iostream>
+	<string>
+
+1506640588 c:\users\6512224\desktop\portablegit\codeblocks\consultorio\assegurado.h
+	<string>
+	"Paciente.h"
+
+1506640588 c:\users\6512224\desktop\portablegit\codeblocks\consultorio\paciente.h
+	<string>
+
+1506640588 source:c:\users\6512224\desktop\portablegit\codeblocks\consultorio\naoassegurado.cpp
+	"NaoAssegurado.h"
+	<iostream>
+
+1506640588 c:\users\6512224\desktop\portablegit\codeblocks\consultorio\naoassegurado.h
+	"Paciente.h"
+
+1506640588 source:c:\users\6512224\desktop\portablegit\codeblocks\consultorio\paciente.cpp
+	"Paciente.h"
+
+1506640674 source:c:\users\6512224\desktop\portablegit\codeblocks\consultorio\main.cpp
+	<iostream>
+	"Paciente.h"
+	"Assegurado.h"
+	"NaoAssegurado.h"
+

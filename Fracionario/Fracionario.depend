@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1446664144 source:c:\users\6512224\desktop\fracionario\main.cpp
+	<iostream>
+
+1506647399 source:c:\users\6512224\desktop\fracionario\fracao.cpp
+	"Fracao.h"
+
+1506646850 c:\users\6512224\desktop\fracionario\fracao.h
+

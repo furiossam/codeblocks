@@ -68,6 +68,7 @@ int main()
             }
             break;
         case 3:
+            delete [] cadastros;
             return 0;
         }
     }

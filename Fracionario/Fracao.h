@@ -6,7 +6,7 @@ class Fracao
     int numerador,denominador;
 public:
     Fracao();
-    Fracao(int num=1,int den=1);
+    Fracao(int num,int den);
     void setNumerador(int);
     void setDenominador(int);
     int getNumerador();

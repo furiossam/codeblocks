@@ -7,3 +7,13 @@
 
 1506646850 c:\users\6512224\desktop\fracionario\fracao.h
 
+1507076509 source:c:\users\6512224\downloads\portablegit\codeblocks\fracionario\fracao.cpp
+	"Fracao.h"
+	<iostream>
+
+1507077696 c:\users\6512224\downloads\portablegit\codeblocks\fracionario\fracao.h
+
+1507078709 source:c:\users\6512224\downloads\portablegit\codeblocks\fracionario\main.cpp
+	<iostream>
+	"Fracao.h"
+

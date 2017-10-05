@@ -6,10 +6,7 @@ Fracao::Fracao(int num,int den)
     denominador=den;
     numerador=num;
 }
-Fracao::Fracao()
-{
 
-}
 Fracao Fracao::operator+(Fracao &v)
 {
     int aux,aux2,aux3;
@@ -39,7 +36,7 @@ Fracao Fracao::operator-(Fracao &v)
     {
         aux=denominador*v.denominador;
         aux2=numerador*(aux/denominador);
-        aux3=v.numerador*(aux/v.denominador);
+        aux3=v.numerador*(aux/denominador);
         aux2-=aux3;
     }
     return Fracao(aux2,aux);
@@ -78,5 +75,4 @@ int Fracao::getDenominador()
 void Fracao::mostra()
 {
     cout << getNumerador() << "/" << getDenominador() << endl;
-
 }

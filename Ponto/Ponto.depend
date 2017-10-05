@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1507209837 source:c:\users\leonardo\desktop\portablegit\codeblocks\ponto\main.cpp
+	<iostream>
+	"Ponto.h"
+
+1507209623 c:\users\leonardo\desktop\portablegit\codeblocks\ponto\ponto.h
+
+1507209880 source:c:\users\leonardo\desktop\portablegit\codeblocks\ponto\ponto.cpp
+	"Ponto.h"
+	<iostream>
+

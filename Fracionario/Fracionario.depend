@@ -1,19 +1,11 @@
 # depslib dependency file v1.0
-1446664144 source:c:\users\6512224\desktop\fracionario\main.cpp
-	<iostream>
-
-1506647399 source:c:\users\6512224\desktop\fracionario\fracao.cpp
-	"Fracao.h"
-
-1506646850 c:\users\6512224\desktop\fracionario\fracao.h
-
-1507076509 source:c:\users\6512224\downloads\portablegit\codeblocks\fracionario\fracao.cpp
-	"Fracao.h"
-	<iostream>
-
-1507077696 c:\users\6512224\downloads\portablegit\codeblocks\fracionario\fracao.h
-
-1507078709 source:c:\users\6512224\downloads\portablegit\codeblocks\fracionario\main.cpp
+1506692794 source:c:\users\leonardo\desktop\portablegit\codeblocks\fracionario\main.cpp
 	<iostream>
 	"Fracao.h"
+
+1506692341 c:\users\leonardo\desktop\portablegit\codeblocks\fracionario\fracao.h
+
+1506692594 source:c:\users\leonardo\desktop\portablegit\codeblocks\fracionario\fracao.cpp
+	"Fracao.h"
+	<iostream>
 

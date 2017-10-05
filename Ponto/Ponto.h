@@ -5,8 +5,7 @@ class Ponto
 {
     int x,y;
 public:
-    Ponto(int a, int b);
-    Ponto();
+    Ponto(int =0, int =0);
     void setX(int);
     int getX();
     void setY(int);

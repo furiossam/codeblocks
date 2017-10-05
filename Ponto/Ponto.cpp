@@ -1,16 +1,12 @@
 #include"Ponto.h"
 #include<iostream>
 using namespace std;
-Ponto::Ponto(int a=0,int b=0)
+Ponto::Ponto(int a,int b)
 {
     x=a;
     y=b;
 }
-Ponto::Ponto()
-{
-    x=0;
-    y=0;
-}
+
 void Ponto::setX(int a)
 {
     x=a;

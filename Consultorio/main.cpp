@@ -68,11 +68,15 @@ int main()
             }
             break;
         case 3:
-            delete [] cadastros;
-            return 0;
+            for (i=1;i<=Paciente::getQtdePacientes();i++)
+                {
+                    delete cadastros[i];
+                }
         }
     }
-    delete [] cadastros;
-
+    for (i=1;i<=Paciente::getQtdePacientes();i++)
+            {
+                delete cadastros[i];
+            }
 
 }

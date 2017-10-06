@@ -55,3 +55,25 @@
 	"Assegurado.h"
 	"NaoAssegurado.h"
 
+1507241080 source:c:\users\6512224\downloads\portablegit\codeblocks\consultorio\assegurado.cpp
+	"Assegurado.h"
+	<iostream>
+	<string>
+
+1507241080 c:\users\6512224\downloads\portablegit\codeblocks\consultorio\assegurado.h
+	<string>
+	"Paciente.h"
+
+1507241080 c:\users\6512224\downloads\portablegit\codeblocks\consultorio\paciente.h
+	<string>
+
+1507241080 source:c:\users\6512224\downloads\portablegit\codeblocks\consultorio\naoassegurado.cpp
+	"NaoAssegurado.h"
+	<iostream>
+
+1507241080 c:\users\6512224\downloads\portablegit\codeblocks\consultorio\naoassegurado.h
+	"Paciente.h"
+
+1507241080 source:c:\users\6512224\downloads\portablegit\codeblocks\consultorio\paciente.cpp
+	"Paciente.h"
+

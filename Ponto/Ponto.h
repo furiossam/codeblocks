@@ -10,10 +10,10 @@ public:
     int getX();
     void setY(int);
     int getY();
-    Ponto operator+(Ponto &v);
-    Ponto operator+(int);
-    Ponto operator-(int);
-    Ponto operator-(Ponto &v);
+    const Ponto operator+(Ponto &v);
+    const Ponto operator+(int);
+    const Ponto operator-(int);
+    const Ponto operator-(Ponto &v);
     void operator-();
     void operator+=(Ponto &v);
     void operator-=(Ponto &v);

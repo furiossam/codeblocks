@@ -104,28 +104,28 @@ void Ponto::operator-()
     x=x*-1;
     y=y*-1;
 }
-Ponto Ponto::operator-(Ponto &v)
+const Ponto Ponto::operator-(Ponto &v)
 {
     int a,b;
     a=getX()-v.getX();
     b=getY()-v.getY();
     return (Ponto(a,b));
 }
-Ponto Ponto::operator-(int a)
+const Ponto Ponto::operator-(int a)
 {
     int x,y;
     x=getX()-a;
     y=getY()-a;
     return (Ponto(x,y));
 }
-Ponto Ponto::operator+(int a)
+const Ponto Ponto::operator+(int a)
 {
     int x,y;
     x=getX()+a;
     y=getY()+a;
     return (Ponto(x,y));
 }
-Ponto Ponto::operator+(Ponto &v)
+const Ponto Ponto::operator+(Ponto &v)
 {
     int a,b;
     a=getX()+v.getX();

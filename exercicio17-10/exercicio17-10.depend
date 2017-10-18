@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1508283251 source:c:\users\6512224\desktop\exercicio17-10\camarotevip.cpp
+	"CamaroteVIP.h"
+
+1508283251 c:\users\6512224\desktop\exercicio17-10\camarotevip.h
+	"PistaVIP.h"
+
+1508284215 c:\users\6512224\desktop\exercicio17-10\pistavip.h
+	"VIP.h"
+
+1508285391 c:\users\6512224\desktop\exercicio17-10\vip.h
+	"Ingresso.h"
+
+1508285623 c:\users\6512224\desktop\exercicio17-10\ingresso.h
+
+1508283251 source:c:\users\6512224\desktop\exercicio17-10\main.cpp
+	<iostream>
+	"Ingresso.h"
+	"VIP.h"
+	"PistaVIP.h"
+	"CamaroteVIP.h"
+
+1508284969 source:c:\users\6512224\desktop\exercicio17-10\pistavip.cpp
+	"PistaVIP.h"
+	<iostream>
+
+1508283251 source:c:\users\6512224\desktop\exercicio17-10\vip.cpp
+	"VIP.h"
+
+1508285935 source:c:\users\6512224\desktop\exercicio17-10\ingresso.cpp
+	"Ingresso.h"
+	<iostream>
+

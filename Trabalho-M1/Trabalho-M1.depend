@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1505393517 source:c:\users\leonardo\desktop\trabalho-m1\main.cpp
+	<iostream>
+	"Grafo.h"
+
+1505394236 source:c:\users\leonardo\desktop\trabalho-m1\grafo.cpp
+	"Grafo.h"
+
+1505394070 c:\users\leonardo\desktop\trabalho-m1\grafo.h
+	<iostream>
+

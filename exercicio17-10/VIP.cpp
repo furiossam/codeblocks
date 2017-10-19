@@ -3,7 +3,11 @@ VIP::VIP()
 {
 
 }
+float VIP::getAdcionalVIP()
+{
+    return adcional;
+}
 float VIP::calculaValorIngresso()
 {
-    return (valorEmReais+100);
+    return (getValorEmReais()+getAdcionalVIP());
 }

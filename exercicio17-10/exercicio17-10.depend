@@ -31,3 +31,32 @@
 	"Ingresso.h"
 	<iostream>
 
+1508414669 source:c:\users\leonardo\desktop\portablegit\codeblocks\exercicio17-10\camarotevip.cpp
+	"CamaroteVIP.h"
+
+1508414669 c:\users\leonardo\desktop\portablegit\codeblocks\exercicio17-10\camarotevip.h
+	"PistaVIP.h"
+
+1508414669 c:\users\leonardo\desktop\portablegit\codeblocks\exercicio17-10\pistavip.h
+	"VIP.h"
+
+1508415162 c:\users\leonardo\desktop\portablegit\codeblocks\exercicio17-10\vip.h
+	"Ingresso.h"
+
+1508414974 c:\users\leonardo\desktop\portablegit\codeblocks\exercicio17-10\ingresso.h
+
+1508414669 source:c:\users\leonardo\desktop\portablegit\codeblocks\exercicio17-10\main.cpp
+	<iostream>
+	"Ingresso.h"
+	"VIP.h"
+	"PistaVIP.h"
+	"CamaroteVIP.h"
+
+1508414669 source:c:\users\leonardo\desktop\portablegit\codeblocks\exercicio17-10\pistavip.cpp
+	"PistaVIP.h"
+	<iostream>
+
+1508414974 source:c:\users\leonardo\desktop\portablegit\codeblocks\exercicio17-10\ingresso.cpp
+	"Ingresso.h"
+	<iostream>
+

@@ -8,6 +8,10 @@ float Ingresso::calculaValorIngresso()
 {
 
 }
+float Ingresso::getValorEmReais()
+{
+    return valorEmReais;
+}
 Ingresso::Ingresso()
 {
     qtdeVendidos++;

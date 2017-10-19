@@ -8,6 +8,7 @@ class Ingresso
     public:
 
         virtual float calculaValorIngresso();
+        float getValorEmReais();
         virtual void mostra();
         Ingresso();
 };

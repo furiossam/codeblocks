@@ -4,9 +4,10 @@
 
 class VIP : public Ingresso
 {
-
+    float adcional=100;
 public:
     VIP();
+    float getAdcionalVIP();
     float calculaValorIngresso();
     virtual void mostra() =0;
 

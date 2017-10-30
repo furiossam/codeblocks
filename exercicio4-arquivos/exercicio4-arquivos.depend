@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1509375912 source:c:\users\leonardo\desktop\exercicio4-arquivos\main.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<fstream>
+

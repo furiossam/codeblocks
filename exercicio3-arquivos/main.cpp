@@ -21,7 +21,7 @@ int main()
         cout << setw(2) << linha << endl;
         if (i%20==0)
         {
-            cin.ignore();
+            cin.get();
         }
 
 

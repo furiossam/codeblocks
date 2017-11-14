@@ -24,3 +24,28 @@
 	<fstream>
 	<iostream>
 
+1510514349 source:c:\users\leonardo\desktop\portablegit\codeblocks\exercicio-binario3\incompleta.cpp
+	"Incompleta.h"
+
+1510514421 c:\users\leonardo\desktop\portablegit\codeblocks\exercicio-binario3\incompleta.h
+	<cstring>
+	<fstream>
+	<iostream>
+
+1510661063 source:c:\users\leonardo\desktop\portablegit\codeblocks\exercicio-binario3\main.cpp
+	<iostream>
+	"Pessoa.h"
+	"Incompleta.h"
+	<fstream>
+	<vector>
+	<stdlib.h>
+	<cstring>
+
+1510661120 c:\users\leonardo\desktop\portablegit\codeblocks\exercicio-binario3\pessoa.h
+	<cstring>
+	<fstream>
+	<iostream>
+
+1510661063 source:c:\users\leonardo\desktop\portablegit\codeblocks\exercicio-binario3\pessoa.cpp
+	"Pessoa.h"
+

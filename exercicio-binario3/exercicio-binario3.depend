@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1510514349 source:c:\users\leonardo\desktop\exercicio-binario3\incompleta.cpp
+	"Incompleta.h"
+
+1510517110 source:c:\users\leonardo\desktop\exercicio-binario3\main.cpp
+	<iostream>
+	"Pessoa.h"
+	"Incompleta.h"
+	<fstream>
+	<vector>
+	<stdlib.h>
+	<cstring>
+
+1510514349 source:c:\users\leonardo\desktop\exercicio-binario3\pessoa.cpp
+	"Pessoa.h"
+
+1510514720 c:\users\leonardo\desktop\exercicio-binario3\pessoa.h
+	<cstring>
+	<fstream>
+	<iostream>
+
+1510514421 c:\users\leonardo\desktop\exercicio-binario3\incompleta.h
+	<cstring>
+	<fstream>
+	<iostream>
+

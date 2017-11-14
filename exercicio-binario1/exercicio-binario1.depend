@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1510484161 source:c:\users\leonardo\desktop\exercicio-binario1\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<stdio.h>
+	<stdlib.h>
+	"Produtos.h"
+	<vector>
+
+1510444956 source:c:\users\leonardo\desktop\exercicio-binario1\produtos.cpp
+	"Produtos.h"
+
+1510432979 c:\users\leonardo\desktop\exercicio-binario1\produtos.h
+	<iostream>
+	<fstream>
+	<cstring>
+

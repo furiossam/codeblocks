@@ -24,3 +24,28 @@
 1510673527 source:c:\users\leonardo\desktop\exercicio-binario4\movimento.cpp
 	"Movimento.h"
 
+1510701231 source:c:\users\6512224\downloads\portablegit\codeblocks\exercicio-binario4\cadastro.cpp
+	"Cadastro.h"
+
+1510701231 c:\users\6512224\downloads\portablegit\codeblocks\exercicio-binario4\cadastro.h
+	<cstring>
+	<fstream>
+	<iostream>
+
+1510701231 source:c:\users\6512224\downloads\portablegit\codeblocks\exercicio-binario4\movimento.cpp
+	"Movimento.h"
+
+1510701231 c:\users\6512224\downloads\portablegit\codeblocks\exercicio-binario4\movimento.h
+	<cstring>
+	<fstream>
+	<iostream>
+
+1510704918 source:c:\users\6512224\downloads\portablegit\codeblocks\exercicio-binario4\main.cpp
+	<iostream>
+	<vector>
+	<cstring>
+	<stdlib.h>
+	<fstream>
+	"Cadastro.h"
+	"Movimento.h"
+

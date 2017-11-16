@@ -20,13 +20,12 @@ int main()
 do
     {
         system("cls");
-        cout << "Digite o que deseja fazer?\n" << "1) Cadastrar novo cliente:\n" << "2) Deposito:\n" << "3) Saque:\n" << "4) Saldo:\n" << "5) Sair:\n";
+        cout << "Digite o que deseja fazer?\n" << "1) Cadastrar novo cliente:\n" << "2) Deposito:\n" << "3) Saque:\n" << "4) Saldo:\n" << "5) Salvar:\n" << "6) Recuperar Dados:\n" << "7) Sair:\n";
         cin >> opc;cin.ignore();
         switch(opc)
         {
         case 1:
             {
-
                 system("cls");
                 cout << "Digite o numero da conta:\n";
                 gets(nconta);
@@ -59,21 +58,14 @@ do
                 system("cls");
                 cout << "Digite o numero da conta:\n";
                 gets(nconta);
-                do
-                {
-                    cout << "Digite o tipo de Operacao:d(deposito) s(retirada)\n";
-                    cin >> tipoOp;
-                }
-                while((tipoOp!='d')&&(tipoOp!='D')&&(tipoOp!='s')&&(tipoOp!='S'));
+
                 do
                 {
                     cout << "Digite o valor da operacao:\n";
                     cin >> valor;cin.ignore();
                 }
                 while(valor<0);
-
-
-                Movimento novo_movimento(nconta,tipoOp,valor);
+                Movimento novo_movimento(nconta,'d',valor);
                 movimentos.push_back(novo_movimento);
                 do
                 {
@@ -93,70 +85,81 @@ do
                 system("cls");
                 cout << "Digite o numero da conta:\n";
                 gets(nconta);
+                //cout << nconta << endl << cadastros[0].getNconta();
                 for (i=0;i<cadastros.size();i++)
                     {
-                        if ((cadastros[i].getNconta())==(nconta))
+                        if (strcmp(cadastros[i].getNconta(),nconta)==0)
                         {
                             cout << "Valor em conta: " << cadastros[i].getSaldo() << endl ;
                             cin.get();
+                            break;
                         }
-                        else
-                        {
-                            cout << "Falha";
-                            cin.get();
-                        }
-
                     }
+            }
+        case 5:
+            {
+                movimentoOut.open("MOVIMENTOS.DAT",ios::binary);
+                for (i=0;i<movimentos.size();i++)
+                {
+                    movimentoOut.write(reinterpret_cast<char*>(&movimentos[i]),sizeof(Movimento));
+                }
+                movimentoOut.close();
+                cadastroOut.open("CADASTROS.DAT",ios::binary);
+                for (i=0;i<cadastros.size();i++)
+                {
+                    cadastroOut.write(reinterpret_cast<char*>(&cadastros[i]),sizeof(Cadastro));
+                }
+                cadastroOut.close();
+
+            }
+        case 6:
+            {
+
+                cadastroIn.open("CADASTROS.DAT",ios::binary);
+                movimentoIn.open("MOVIMENTOS.DAT",ios::binary);
+                if (!cadastroIn)
+                {
+                    cout << "Arquivo CADASTROS.DAT nao foi encontrado:\n";
+                    return 0;
+                }
+                if (!movimentoIn)
+                {
+                    cout << "Arquivo MOVIMENTOS.DAT nao foi encontrado:\n";
+                    return 0;
+                }
+                Cadastro c;
+                while(cadastroIn.read(reinterpret_cast<char*>(&c),sizeof(Cadastro)))
+                {
+                    cadastros.push_back(c);
+                }
+                Movimento m;
+                while(movimentoIn.read(reinterpret_cast<char*>(&m),sizeof(Movimento)))
+                {
+                    movimentos.push_back(m);
+                }
+                cadastroIn.close();
+                movimentoIn.close();
+                for (i=0;i<cadastros.size();i++)
+                {
+                    for (j=0;j<movimentos.size();j++)
+                    {
+                        if (strcmp(cadastros[i].getNconta(),movimentos[i].getNconta())==0)
+                        {
+                            if (movimentos[j].getTipoOp()=='d'||movimentos[j].getTipoOp()=='D')
+                            {
+                                cadastros[i].setSaldo(cadastros[i].getSaldo()+movimentos[j].getValor());
+                            }
+                            else
+                            {
+                                cadastros[i].setSaldo(cadastros[i].getSaldo()-movimentos[j].getValor());
+                            }
+
+                        }
+                    }
+                }
             }
         }
     }
-    while(opc != 5);
-    movimentoOut.open("MOVIMENTOS.DAT",ios::binary);
-    for (i=0;i<movimentos.size();i++)
-    {
-        movimentoOut.write(reinterpret_cast<char*>(&movimentos[i]),sizeof(Movimento));
-    }
-    movimentoOut.close();
-    cadastroOut.open("CADASTROS.DAT",ios::binary);
-    for (i=0;i<cadastros.size();i++)
-    {
-        cadastroOut.write(reinterpret_cast<char*>(&cadastros[i]),sizeof(Cadastro));
-    }
-    cadastroOut.close();
-    if (!cadastroIn)
-    {
-        cout << "Arquivo CADASTRO.DAT nao foi encontrado:\n";
-        return 0;
-    }
-    if (!movimentoIn)
-    {
-        cout << "Arquivo MOVIMENTOS.DAT nao foi encontrado:\n";
-        return 0;
-    }
-cadastroIn.open("CADASTRO.DAT",ios::binary);
-movimentoIn.open("MOVIMENTOS.DAT",ios::binary);
-for (i=0;i<cadastros.size();i++)
-{
-    cadastroIn.read(reinterpret_cast<char*>(&cadastros[i]),sizeof(Cadastro));
-    for (j=0;j<movimentos.size();j++)
-    {
-        movimentoIn.read(reinterpret_cast<char*>(&movimentos[j]),sizeof(Movimento));
-        if (movimentos[j].getNconta()==cadastros[i].getNconta())
-        {
-                if (movimentos[j].getTipoOp()=='d'||movimentos[j].getTipoOp()=='D')
-                {
-                    aux=movimentos[j].getValor()+cadastros[i].getSaldo();
-                    cadastros[i].setSaldo(aux);
-                }
-                else
-                {
-                    aux=movimentos[j].getValor()-cadastros[i].getSaldo();
-                    cadastros[i].setSaldo(aux);
-                }
-        }
-    }
-}
-cadastroIn.close();
-movimentoIn.close();
+    while(opc != 7);
 
 }

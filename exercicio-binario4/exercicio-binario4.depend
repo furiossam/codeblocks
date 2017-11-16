@@ -49,3 +49,28 @@
 	"Cadastro.h"
 	"Movimento.h"
 
+1510673527 source:c:\users\leonardo\desktop\portablegit\codeblocks\exercicio-binario4\cadastro.cpp
+	"Cadastro.h"
+
+1510673527 c:\users\leonardo\desktop\portablegit\codeblocks\exercicio-binario4\cadastro.h
+	<cstring>
+	<fstream>
+	<iostream>
+
+1510792068 source:c:\users\leonardo\desktop\portablegit\codeblocks\exercicio-binario4\main.cpp
+	<iostream>
+	<vector>
+	<cstring>
+	<stdlib.h>
+	<fstream>
+	"Cadastro.h"
+	"Movimento.h"
+
+1510673527 c:\users\leonardo\desktop\portablegit\codeblocks\exercicio-binario4\movimento.h
+	<cstring>
+	<fstream>
+	<iostream>
+
+1510673527 source:c:\users\leonardo\desktop\portablegit\codeblocks\exercicio-binario4\movimento.cpp
+	"Movimento.h"
+

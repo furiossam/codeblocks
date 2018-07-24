@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1523456026 source:c:\users\leonardo\desktop\exerciciolistaoo\lista.cpp
+	"Lista.h"
+	"Nodo.h"
+	<iostream>
+
+1523368641 c:\users\leonardo\desktop\exerciciolistaoo\lista.h
+	"Nodo.h"
+
+1523368353 c:\users\leonardo\desktop\exerciciolistaoo\nodo.h
+
+1523368426 c:\users\leonardo\desktop\exerciciolistaoo\nodo.cpp
+	"Nodo.h"
+
+1523455855 source:c:\users\leonardo\desktop\exerciciolistaoo\main.cpp
+	<iostream>
+	"Lista.h"
+
+1523368391 c:\users\leonardo\desktop\exerciciolistaoo\lista.cpp
+	"Lista.h"
+	"Nodo.cpp"
+	<iostream>
+
+1523368426 source:c:\users\leonardo\desktop\exerciciolistaoo\nodo.cpp
+	"Nodo.h"
+
+1523456026 source:c:\users\leonardo\desktop\faculdade\estrutura de dados\listas\exerciciolistaoo\lista.cpp
+	"Lista.h"
+	"Nodo.h"
+	<iostream>
+
+1523368641 c:\users\leonardo\desktop\faculdade\estrutura de dados\listas\exerciciolistaoo\lista.h
+	"Nodo.h"
+
+1523368353 c:\users\leonardo\desktop\faculdade\estrutura de dados\listas\exerciciolistaoo\nodo.h
+
+1523717241 source:c:\users\leonardo\desktop\faculdade\estrutura de dados\listas\exerciciolistaoo\main.cpp
+	<iostream>
+	"Lista.h"
+
+1523368426 source:c:\users\leonardo\desktop\faculdade\estrutura de dados\listas\exerciciolistaoo\nodo.cpp
+	"Nodo.h"
+

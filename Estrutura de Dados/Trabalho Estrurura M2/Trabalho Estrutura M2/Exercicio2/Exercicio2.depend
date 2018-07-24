@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1525913148 source:c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\nodo.cpp
+	"Nodo.h"
+
+1525913148 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\nodo.h
+
+1526165448 source:c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\pilha.cpp
+	"Pilha.h"
+	"Nodo.cpp"
+	<iostream>
+
+1526165468 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\pilha.h
+	"Nodo.h"
+
+1525913148 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\nodo.cpp
+	"Nodo.h"
+
+1526165536 source:c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"Pilha.cpp"
+
+1526165448 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\pilha.cpp
+	"Pilha.h"
+	"Nodo.cpp"
+	<iostream>
+
+1526238193 source:c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio2\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+	<stdlib.h>
+	<math.h>
+	"Pilha.cpp"
+	"Fila.cpp"
+
+1526165448 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio2\pilha.cpp
+	"Pilha.h"
+	"Nodo.cpp"
+	<iostream>
+
+1526165468 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio2\pilha.h
+	"Nodo.h"
+
+1525913148 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio2\nodo.h
+
+1525913148 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio2\nodo.cpp
+	"Nodo.h"
+
+1525913148 source:c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio2\nodo.cpp
+	"Nodo.h"
+
+1526165448 source:c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio2\pilha.cpp
+	"Pilha.h"
+	"Nodo.cpp"
+	<iostream>
+
+1526173018 source:c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio2\fila.cpp
+	<iostream>
+	"Fila.h"
+
+1526173018 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio2\fila.h
+
+1526173018 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio2\fila.cpp
+	<iostream>
+	"Fila.h"
+

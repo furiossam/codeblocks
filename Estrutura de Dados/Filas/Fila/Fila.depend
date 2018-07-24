@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1493216327 source:/Users/alessandromueller/Documents/UNIVALI/Estruturas de Dados/C++/Fila/Implementacao/Fila OO (1)/Fila/main.cpp
+	<iostream>
+	"Fila.cpp"
+
+1493246903 source:/Users/alessandromueller/Documents/UNIVALI/Estruturas de Dados/C++/Fila/Implementacao/Fila OO (1)/Fila/Fila.cpp
+	<iostream>
+	"Fila.h"
+
+1493246903 /Users/alessandromueller/Documents/UNIVALI/Estruturas de Dados/C++/Fila/Implementacao/Fila OO (1)/Fila/Fila.h
+
+1493246903 /Users/alessandromueller/Documents/UNIVALI/Estruturas de Dados/C++/Fila/Implementacao/Fila OO (1)/Fila/Fila.cpp
+	<iostream>
+	"Fila.h"
+
+1493216327 source:/Users/alessandromueller/Documents/OneDrive - UNIVALI/UNIVALI/Estruturas de Dados/C++/Fila/Implementacao/Fila OO (1)/Fila/main.cpp
+	<iostream>
+	"Fila.cpp"
+
+1524700694 /Users/alessandromueller/Documents/OneDrive - UNIVALI/UNIVALI/Estruturas de Dados/C++/Fila/Implementacao/Fila OO (1)/Fila/Fila.cpp
+	<iostream>
+	"Fila.h"
+
+1524700694 /Users/alessandromueller/Documents/OneDrive - UNIVALI/UNIVALI/Estruturas de Dados/C++/Fila/Implementacao/Fila OO (1)/Fila/Fila.h
+
+1525872397 source:c:\users\leonardo\desktop\faculdade\estrutura de dados\filas\fila\fila.cpp
+	<iostream>
+	"Fila.h"
+
+1525098647 c:\users\leonardo\desktop\faculdade\estrutura de dados\filas\fila\fila.h
+
+1525216458 source:c:\users\leonardo\desktop\faculdade\estrutura de dados\filas\fila\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	"Fila.cpp"
+
+1525872397 c:\users\leonardo\desktop\faculdade\estrutura de dados\filas\fila\fila.cpp
+	<iostream>
+	"Fila.h"
+

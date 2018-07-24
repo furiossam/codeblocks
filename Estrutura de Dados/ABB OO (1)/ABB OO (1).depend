@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1529505305 source:c:\users\leonardo\desktop\abb oo (1)\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"ABB.cpp"
+
+1529501599 c:\users\leonardo\desktop\abb oo (1)\abb.cpp
+	"Nodo.cpp"
+	"ABB.h"
+
+1529501577 c:\users\leonardo\desktop\abb oo (1)\nodo.cpp
+	"Nodo.h"
+
+1529501577 c:\users\leonardo\desktop\abb oo (1)\nodo.h
+
+1496785030 c:\users\leonardo\desktop\abb oo (1)\abb.h
+

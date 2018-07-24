@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1525872333 source:c:\users\leonardo\desktop\trabalho estrurura m1\pilhas\main.cpp
+	<iostream>
+	"Pilha.h"
+
+1525872311 source:c:\users\leonardo\desktop\trabalho estrurura m1\pilhas\pilha.cpp
+	<iostream>
+	"Pilha.h"
+
+1525872205 c:\users\leonardo\desktop\trabalho estrurura m1\pilhas\pilha.h
+
+1525875307 source:c:\users\leonardo\desktop\faculdade\estrutura de dados\pilhas\pilha.cpp
+	<iostream>
+	"Pilha.h"
+
+1525874978 c:\users\leonardo\desktop\faculdade\estrutura de dados\pilhas\pilha.h
+
+1525877237 source:c:\users\leonardo\desktop\faculdade\estrutura de dados\pilhas\main.cpp
+	<iostream>
+	"Pilha.cpp"
+
+1525875307 c:\users\leonardo\desktop\faculdade\estrutura de dados\pilhas\pilha.cpp
+	<iostream>
+	"Pilha.h"
+

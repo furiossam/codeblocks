@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1268100920 source:d:\meus documentos\univali\algoritmo e estrutura de dados\c++\polinomio\main.cpp
+	<iostream>
+	<math.h>
+

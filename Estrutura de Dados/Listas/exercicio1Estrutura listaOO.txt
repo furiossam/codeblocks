@@ -1,0 +1,18 @@
+ void Lista::inverteLista(){
+            Nodo* nodo = this->inicio;
+
+            int aux=0,aux2=0,lim=this->numeroDeElementos();
+            while(lim>this->numeroDeElementos()/2){
+                nodo = this->inicio;
+		for(int i=0;i<lim;i++){
+                    aux=nodo->pegaElemento();
+                    aux2=nodo->pegaProximo()->pegaElemento();
+                    nodo->setaElemento(aux2);
+                    nodo->pegaProximo()->setaElemento(aux);
+                    nodo=nodo->pegaProximo();
+                }
+                lim--;
+            }
+	    delete nodo;
+
+        }

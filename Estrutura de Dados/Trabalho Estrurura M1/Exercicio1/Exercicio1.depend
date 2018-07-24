@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1524058339 source:c:\users\leonardo\desktop\trabalho estrurura m1\exercicio1\lista.cpp
+	"Lista.h"
+	"NodoDuplo.cpp"
+	<iostream>
+
+1524367522 source:c:\users\leonardo\desktop\trabalho estrurura m1\exercicio1\main.cpp
+	<iostream>
+	"Lista.cpp"
+
+1523749442 source:c:\users\leonardo\desktop\trabalho estrurura m1\exercicio1\nododuplo.cpp
+	"NodoDuplo.h"
+
+1523750822 c:\users\leonardo\desktop\trabalho estrurura m1\exercicio1\lista.h
+	"NodoDuplo.h"
+
+1523750785 c:\users\leonardo\desktop\trabalho estrurura m1\exercicio1\nododuplo.h
+
+1523749442 c:\users\leonardo\desktop\trabalho estrurura m1\exercicio1\nododuplo.cpp
+	"NodoDuplo.h"
+
+1524058339 c:\users\leonardo\desktop\trabalho estrurura m1\exercicio1\lista.cpp
+	"Lista.h"
+	"NodoDuplo.cpp"
+	<iostream>
+

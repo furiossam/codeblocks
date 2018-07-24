@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1525913148 source:c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\nodo.cpp
+	"Nodo.h"
+
+1525913148 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\nodo.h
+
+1526234543 source:c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\pilha.cpp
+	"Pilha.h"
+	"Nodo.cpp"
+	<iostream>
+
+1526234309 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\pilha.h
+	"Nodo.h"
+
+1525913148 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\nodo.cpp
+	"Nodo.h"
+
+1526234685 source:c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"Pilha.cpp"
+
+1526234543 c:\users\leonardo\desktop\trabalho estrurura m2\trabalho estrutura m2\exercicio1\pilha.cpp
+	"Pilha.h"
+	"Nodo.cpp"
+	<iostream>
+
+1526234685 source:c:\users\leonardo\desktop\faculdade\estrutura de dados\trabalho estrurura m2\trabalho estrutura m2\exercicio1\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"Pilha.cpp"
+
+1526234543 c:\users\leonardo\desktop\faculdade\estrutura de dados\trabalho estrurura m2\trabalho estrutura m2\exercicio1\pilha.cpp
+	"Pilha.h"
+	"Nodo.cpp"
+	<iostream>
+
+1526234309 c:\users\leonardo\desktop\faculdade\estrutura de dados\trabalho estrurura m2\trabalho estrutura m2\exercicio1\pilha.h
+	"Nodo.h"
+
+1525913148 c:\users\leonardo\desktop\faculdade\estrutura de dados\trabalho estrurura m2\trabalho estrutura m2\exercicio1\nodo.h
+
+1525913148 c:\users\leonardo\desktop\faculdade\estrutura de dados\trabalho estrurura m2\trabalho estrutura m2\exercicio1\nodo.cpp
+	"Nodo.h"
+
+1525913148 source:c:\users\leonardo\desktop\faculdade\estrutura de dados\trabalho estrurura m2\trabalho estrutura m2\exercicio1\nodo.cpp
+	"Nodo.h"
+
+1526234543 source:c:\users\leonardo\desktop\faculdade\estrutura de dados\trabalho estrurura m2\trabalho estrutura m2\exercicio1\pilha.cpp
+	"Pilha.h"
+	"Nodo.cpp"
+	<iostream>
+
